@@ -1,0 +1,37 @@
+deposit_type; over; under; term; details; interest
+Rachunki oszczędnościowo-rozliczeniowe, z wyjątkiem wymienionego w pkt 2; NA; NA; NA; NA; FILL_IN
+Rachunek oszczędnościowo–rozliczeniowy PKO Konto Dziecka oraz PKO Konto dla Młodych (poniżej 18 roku życia); 0; 2500; NA; NA; FILL_IN
+Rachunek oszczędnościowo–rozliczeniowy PKO Konto Dziecka oraz PKO Konto dla Młodych (poniżej 18 roku życia); 2500; NA; NA; NA; FILL_IN
+Podstawowy rachunek płatniczy; NA; NA; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 0; 999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 999.99; 9999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 9999.99; 19999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 19999.99; 49999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 49999.99; 99999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 99999.99; 199999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 199999.99; 499999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 499999.99; 999999.99; NA; NA; FILL_IN
+Rachunek Oszczędnościowy Plus; 999999.99; NA; NA; NA; FILL_IN
+Pierwsze Konto Oszczędnościowe; 0; 10000; NA; NA; FILL_IN
+Pierwsze Konto Oszczędnościowe - Bonus; NA; NA; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto dla Szkoły; NA; NA; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto dla Rady Rodziców; NA; NA; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto Plan Szkoły; NA; NA; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto Plan Rady Rodziców; NA; NA; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto dla Ucznia; 0; 2500; NA; NA; FILL_IN
+Rachunki Szkolnej Kasy Oszczędności - Konto dla Ucznia; 2500; NA; NA; NA; FILL_IN
+Konto Mieszkaniowe - Promocyjne; NA; NA; NA; NA; FILL_IN
+Konto Mieszkaniowe - Standardowe; NA; NA; NA; NA; FILL_IN
+Lokata terminowa; NA; NA; 3; Oprocentowanie lokaty oferowanej w placówkach Banku oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata terminowa; NA; NA; 6; Oprocentowanie lokaty oferowanej w placówkach Banku oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata terminowa; NA; NA; 12; Oprocentowanie lokaty oferowanej w placówkach Banku oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata terminowa; NA; NA; 18; Oprocentowanie lokaty oferowanej w placówkach Banku oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata terminowa; NA; NA; 3; Oprocentowanie lokaty oferowanej przez serwis internetowy iPKO oraz aplikację mobilną IKO; FILL_IN
+Lokata terminowa; NA; NA; 6; Oprocentowanie lokaty oferowanej przez serwis internetowy iPKO oraz aplikację mobilną IKO; FILL_IN
+Lokata terminowa; NA; NA; 12; Oprocentowanie lokaty oferowanej przez serwis internetowy iPKO oraz aplikację mobilną IKO; FILL_IN
+Lokata terminowa; NA; NA; 18; Oprocentowanie lokaty oferowanej przez serwis internetowy iPKO oraz aplikację mobilną IKO; FILL_IN
+Lokata na nowe środki; NA; NA; 3; Oprocentowanie lokaty oferowanej w placówkach Banku przez serwis internetowy iPKO oraz aplikację mobilną IKO oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata na nowe środki; NA; NA; 12; Oprocentowanie lokaty oferowanej w placówkach Banku przez serwis internetowy iPKO oraz aplikację mobilną IKO oraz za pośrednictwem serwisu telefonicznego (infolinii Banku); FILL_IN
+Lokata mobilna; NA; NA; 3; Oprocentowanie lokaty oferowanej przez aplikację mobilną IKO; FILL_IN
+Rachunek terminowej lokaty oszczędnościowej w ramach Wyspecjalizowanego Programu Inwestycyjnego Autolokacja III; NA; NA; 6; Oprocentowanie lokaty oferowanej w oddziałach Banku, przez serwis internetowy iPKO oraz aplikację mobilną IKO; FILL_IN
+Lokata terminowa dla klientów, którzy ukończyli 60 rok życia; NA; NA; NA; Oprocentowanie lokaty oferowanej w placówkach Banku oraz za pośrednictwem serwisu telefonicznego (infolinii Banku) i serwisu internetowego iPKO oraz aplikacji mobilnej IKO; FILL_IN
