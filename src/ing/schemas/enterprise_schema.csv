@@ -1,0 +1,26 @@
+deposit_type;over;under;term;currency;interest
+KONTO Z LWEM w PLN;NA;NA;NA;PLN;FILL_IN
+KONTO Z LWEM w USD;NA;NA;NA;USD;FILL_IN
+KONTO Z LWEM w EUR;NA;NA;NA;EUR;FILL_IN
+KONTO Z LWEM w GBP;NA;NA;NA;GBP;FILL_IN
+Otwarte Konto Oszczędnościowe w PLN;NA;20000000;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe w PLN;20000000;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe w EUR;NA;NA;NA;EUR;FILL_IN
+Otwarte Konto Oszczędnościowe w USD;NA;NA;NA;USD;FILL_IN
+Otwarte Konto Oszczędnościowe w GBP;NA;NA;NA;GBP;FILL_IN
+Lokata Terminowa w PLN;1000;NA;1;PLN;FILL_IN
+Lokata Terminowa w PLN;1000;NA;3;PLN;FILL_IN
+Lokata Terminowa w PLN;1000;NA;6;PLN;FILL_IN
+Lokata Terminowa w PLN;1000;NA;12;PLN;FILL_IN
+Lokata Terminowa Plus w PLN;1000;50000;6;PLN;FILL_IN
+Lokata Terminowa Plus w PLN;1000;100000;12;PLN;FILL_IN
+Lokata Terminowa w EUR;500;NA;6;EUR;FILL_IN
+Lokata Terminowa w EUR;500;NA;12;EUR;FILL_IN
+Lokata Terminowa w USD;500;NA;6;USD;FILL_IN
+Lokata Terminowa w USD;500;NA;12;USD;FILL_IN
+Lokata Terminowa Plus w PLN;50000;100000;6;PLN;FILL_IN
+Lokata Terminowa Plus w PLN;100000;NA;12;PLN;FILL_IN
+Lokata Terminowa Plus w EUR;500;25000;6;EUR;FILL_IN
+Lokata Terminowa Plus w EUR;25000;NA;12;EUR;FILL_IN
+Lokata Terminowa Plus w USD;500;50000;6;USD;FILL_IN
+Lokata Terminowa Plus w USD;50000;NA;12;USD;FILL_IN

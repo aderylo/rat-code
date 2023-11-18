@@ -1,0 +1,5 @@
+deposit_type;over;under;term;currency;interest
+OKO Account - PLN;NA;NA;NA;PLN;1.5% (below 20 million), 0% (20 million and above)
+OKO Account - EUR;NA;NA;NA;EUR;0.01% (up to 100,000), 0% (above 100,000)
+OKO Account - USD;NA;NA;NA;USD;0.01% (up to 100,000), 0% (above 100,000)
+Corporate Deposits in PLN;NA;NA;NA;PLN;0% (automatic renewal)
