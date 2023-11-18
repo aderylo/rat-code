@@ -1,5 +1,8 @@
 from dotenv import load_dotenv
 from openai import OpenAI
+import requests
+import io
+import PyPDF2
 
 load_dotenv()
 client = OpenAI()
@@ -27,3 +30,19 @@ def complete_schema(schema: str, content: str):
     )
 
     return response.choices[0].message.content
+
+
+def extract_text_from_pdf(pdf_stream):
+    reader = PyPDF2.PdfReader(pdf_stream)
+    text = ""
+    for page in reader.pages:
+        text += page.extract_text()
+    return text
+
+
+def get_pdf_content(url):
+    response = requests.get(url)
+    if "application/pdf" in response.headers.get("Content-Type", ""):
+        return extract_text_from_pdf(io.BytesIO(response.content))
+    else:
+        raise ValueError("URL did not point to a PDF")

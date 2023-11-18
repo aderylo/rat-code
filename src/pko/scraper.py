@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 from utils import complete_schema
 from db import add_df_to_db
 from utils import get_pdf_content
+import datetime
 
 
 def get_content_from_linked_file(url, find_by):
@@ -29,7 +30,7 @@ def scrape():
                 },
             ],
             "schema": "schemas/corporate_schema.csv",
-        }
+        },
     ]
 
     for config in configs:

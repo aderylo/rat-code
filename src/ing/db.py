@@ -22,10 +22,11 @@ def add_record_to_db(record, filename="db.json"):
 
 def add_df_to_db(df, filename="db.json"):
     json_list = df.to_dict(orient="records")
-    add_record_to_db(json_list, filename)
+    for elem in json_list:
+        add_record_to_db(elem, filename)
 
 
-def get_all_records_from_db(filename="db.json"):
+def get_all_records_from_db(filename="dbx.json"):
     """
     Retrieves all records from the JSON file.
     """

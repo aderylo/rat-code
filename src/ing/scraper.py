@@ -6,7 +6,7 @@ from utils import complete_schema
 from db import add_df_to_db
 
 
-def fetch_content_generic(url):
+def get_content_from_html(url):
     response = requests.get(url)
     response.raise_for_status()
 
@@ -33,7 +33,7 @@ def scrape():
     ]
 
     for config in configs:
-        content = fetch_content_generic(config["url"])
+        content = get_content_from_html(config["url"])
         with open(config["schema"], "r") as file:
             schema = file.read()
 
