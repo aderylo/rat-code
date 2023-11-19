@@ -5,6 +5,6 @@ from utils.models import DepositLog
 
 
 if __name__ == "__main__":
-    # pko_scrape()
+    pko_scrape()
     ing_scrape()
 
