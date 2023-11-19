@@ -1,14 +1,14 @@
-deposit_type;over;under;term;currency;interest
-Środki pieniężne na rachunkach nieoszczędnościowych płatne na żądanie;NA;NA;NA;PLN;FILL_IN
-Środki pieniężne na rachunkach powierniczych, na rachunkach rozliczeń warunkowych, zamkniętych mieszkaniowych rachunkach powierniczych albo otwartych mieszkaniowych rachunkach powierniczych;NA;NA;NA;PLN;FILL_IN
-Środki pieniężne na Rachunkach głównych przetargu i Rachunkach powiązanych przetargu;NA;NA;NA;PLN;FILL_IN
-Środki pieniężne na rachunku Konto oszczędnościowe Progres Adm. w PLN;NA;NA;NA;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze zmienną stopą procentową, zadeklarowane na okres 12 miesięcy;NA;NA;12;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze zmienną stopą procentową, zadeklarowane na okres 6 miesięcy;NA;NA;6;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 3 miesięcy;NA;NA;3;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 2 miesięcy;NA;NA;2;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 1 miesiąca;NA;NA;1;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 21 dni;NA;NA;21;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 14 dni;NA;NA;14;PLN;FILL_IN
-Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 7 dni;NA;NA;7;PLN;FILL_IN
-Środki pieniężne na rachunkach dynamicznych;NA;NA;NA;PLN;FILL_IN
+product_name;product_type;client_type;over;under;term_months;term_days;currency;interest
+Środki pieniężne na rachunkach nieoszczędnościowych płatne na żądanie;savings;corporate;0;inf;NA;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach powierniczych, na rachunkach rozliczeń warunkowych, zamkniętych mieszkaniowych rachunkach powierniczych albo otwartych mieszkaniowych rachunkach powierniczych;savings;corporate;0;inf;NA;NA;PLN;FILL_IN
+Środki pieniężne na Rachunkach głównych przetargu i Rachunkach powiązanych przetargu;savings;corporate;0;inf;NA;NA;PLN;FILL_IN
+Środki pieniężne na rachunku Konto oszczędnościowe Progres Adm. w PLN;savings;corporate;0;inf;NA;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze zmienną stopą procentową, zadeklarowane na okres 12 miesięcy;deposit;corporate;0;inf;12;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze zmienną stopą procentową, zadeklarowane na okres 6 miesięcy;deposit;corporate;0;inf;6;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 3 miesięcy;deposit;corporate;0;inf;3;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 2 miesięcy;deposit;corporate;0;inf;2;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 1 miesiąca;deposit;corporate;0;inf;1;NA;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 21 dni;deposit;corporate;0;inf;0;21;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 14 dni;deposit;corporate;0;inf;0;14;PLN;FILL_IN
+Środki pieniężne na rachunkach lokat terminowych ze stałą stopą procentową, zadeklarowane na okres 7 dni;deposit;corporate;0;inf;0;7;PLN;FILL_IN
+Środki pieniężne na rachunkach dynamicznych;savings;corporate;0;inf;NA;NA;PLN;FILL_IN

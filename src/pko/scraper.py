@@ -39,6 +39,7 @@ def scrape():
         filled_schema = complete_schema(schema, content)
         filled_schema = StringIO(filled_schema)
         df = pd.read_csv(filled_schema, sep=";")
+        df["bank"] = "PKO"
 
         save_df(df)
 
