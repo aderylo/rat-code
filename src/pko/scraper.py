@@ -2,11 +2,8 @@ import pandas as pd
 from io import StringIO
 import requests
 from bs4 import BeautifulSoup
-from utils import complete_schema
-from db import add_df_to_db
-from utils import get_pdf_content
-import datetime
-
+from utils.utils import complete_schema, get_pdf_content, save_df
+from pathlib import Path
 
 def get_content_from_linked_file(url, find_by):
     response = requests.get(url)
@@ -20,6 +17,7 @@ def get_content_from_linked_file(url, find_by):
 
 
 def scrape():
+    current_dir = Path(__file__).resolve().parent
     configs = [
         {
             "url": "https://www.pkobp.pl/oplaty-i-oprocentowanie/oprocentowanie",
@@ -35,14 +33,14 @@ def scrape():
 
     for config in configs:
         content = get_content_from_linked_file(config["url"], config["find_by"])
-        with open(config["schema"], "r") as file:
+        with open(current_dir / config["schema"], "r") as file:
             schema = file.read()
 
         filled_schema = complete_schema(schema, content)
         filled_schema = StringIO(filled_schema)
         df = pd.read_csv(filled_schema, sep=";")
 
-        add_df_to_db(df)
+        save_df(df)
 
 
 if __name__ == "__main__":

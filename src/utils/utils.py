@@ -3,10 +3,12 @@ from openai import OpenAI
 import requests
 import io
 import PyPDF2
+from utils.db import Session
+import pandas as pd
+from utils.models import DepositLog
 
 load_dotenv()
 client = OpenAI()
-
 
 def complete_schema(schema: str, content: str):
     prompt = (
@@ -14,7 +16,7 @@ def complete_schema(schema: str, content: str):
         + schema
         + """can you fill in the tokens FILL_IN
             with correct data based on following"""
-        + content
+        + content + "Make sure interest is a float number."
     )
 
     response = client.chat.completions.create(
@@ -46,3 +48,12 @@ def get_pdf_content(url):
         return extract_text_from_pdf(io.BytesIO(response.content))
     else:
         raise ValueError("URL did not point to a PDF")
+
+
+def save_df(df):
+    with Session() as session:
+        for index, row in df.iterrows():
+            record = DepositLog(**row.to_dict())
+            session.add(record)
+
+        session.commit()
