@@ -2,9 +2,8 @@ import pandas as pd
 from io import StringIO
 import requests
 from bs4 import BeautifulSoup
-from utils import complete_schema
-from db import add_df_to_db
-
+from utils.utils import complete_schema, save_df
+from pathlib import Path
 
 def get_content_from_html(url):
     response = requests.get(url)
@@ -17,6 +16,7 @@ def get_content_from_html(url):
 
 
 def scrape():
+    current_dir = Path(__file__).resolve().parent
     configs = [
         {
             "url": "https://www.ing.pl/indywidualni/tabele-i-regulaminy/oprocentowanie/rachunki-oszczednosciowe-lokaty",
@@ -34,14 +34,14 @@ def scrape():
 
     for config in configs:
         content = get_content_from_html(config["url"])
-        with open(config["schema"], "r") as file:
+        with open(current_dir / config["schema"], "r") as file:
             schema = file.read()
 
         filled_schema = complete_schema(schema, content)
         filled_schema = StringIO(filled_schema)
         df = pd.read_csv(filled_schema, sep=";")
-
-        add_df_to_db(df)
+        df["bank"] = "ING"
+        save_df(df)
 
 
 if __name__ == "__main__":

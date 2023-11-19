@@ -1,27 +1,27 @@
-deposit_type;over;under;term;currency;interest
-Otwarte Konto Oszczędnościowe w PLN;NA;200,000;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe w PLN;200,000;NA;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Bonus w PLN;NA;200,000;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Bonus w PLN;200,000;NA;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w PLN;NA;100,000;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w PLN;100,000;199,999;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w PLN;200,000;499,999;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w PLN;500,000;999,999;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w PLN;1,000,000;NA;NA;PLN;FILL_IN
-Indywidualne Konto Zabezpieczenia Emerytalnego;NA;NA;NA;PLN;FILL_IN
-Smart Saver;NA;5,000;NA;PLN;FILL_IN
-Smart Saver;5,000;NA;NA;PLN;FILL_IN
-Lokata terminowa;1,000;NA;3;PLN;FILL_IN
-Lokata terminowa;1,000;NA;6;PLN;FILL_IN
-Lokata terminowa;1,000;NA;12;PLN;FILL_IN
-Lokata terminowa Plus;1,000;50,000;6;PLN;FILL_IN
-Lokata terminowa Plus;1,000;100,000;12;PLN;FILL_IN
-Lokata w ramach Lokaty z Funduszem;NA;NA;3;PLN;FILL_IN
-Lokata w ramach Lokaty z Funduszem;NA;NA;3;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe w EUR;NA;NA;NA;EUR;FILL_IN
-Otwarte Konto Oszczędnościowe w USD;NA;NA;NA;USD;FILL_IN
-Otwarte Konto Oszczędnościowe w GBP;NA;NA;NA;GBP;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w EUR;poniżej 25,000;NA;NA;EUR;FILL_IN
-Otwarte Konto Oszczędnościowe Premium w EUR;od 25,000;NA;NA;EUR;FILL_IN
-Lokata terminowa w EUR;500;NA;12;EUR;FILL_IN
-Lokata terminowa w USD;500;NA;12;USD;FILL_IN
+product_name;product_type;client_type;over;under;term_months;term_days;currency;interest
+Otwarte Konto Oszczędnościowe;savings;retail;0;200000;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;retail;200000;inf;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Bonus;savings;retail;0;200000;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Bonus;savings;retail;200000;inf;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;0;100000;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;100000;199999;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;200000;499999;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;500000;999999;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;1000000;inf;NA;NA;PLN;FILL_IN
+Indywidualne Konto Zabezpieczenia Emerytalnego;savings;retail;0;inf;NA;NA;PLN;FILL_IN
+Smart Saver;savings;retail;0;5000;NA;NA;PLN;FILL_IN
+Smart Saver;savings;retail;5000;inf;NA;NA;PLN;FILL_IN
+Lokata terminowa;deposit;retail;1000;inf;3;NA;PLN;FILL_IN
+Lokata terminowa;deposit;retail;1000;inf;6;NA;PLN;FILL_IN
+Lokata terminowa;deposit;retail;1000;inf;12;NA;PLN;FILL_IN
+Lokata terminowa Plus;deposit;retail;1000;50000;6;NA;PLN;FILL_IN
+Lokata terminowa Plus;deposit;retail;1000;100000;12;NA;PLN;FILL_IN
+Lokata z Funduszem;deposit;retail;0;inf;3;NA;PLN;FILL_IN
+Lokata z Funduszem;deposit;retail;0;inf;3;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;retail;0;inf;NA;NA;EUR;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;retail;0;inf;NA;NA;USD;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;retail;0;inf;NA;NA;GBP;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;0;25000;NA;NA;EUR;FILL_IN
+Otwarte Konto Oszczędnościowe Premium;savings;retail;25000;inf;NA;NA;EUR;FILL_IN
+Lokata terminowa;deposit;retail;500;inf;12;NA;EUR;FILL_IN
+Lokata terminowa;deposit;retail;500;inf;12;NA;USD;FILL_IN

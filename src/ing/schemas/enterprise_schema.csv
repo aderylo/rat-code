@@ -1,26 +1,26 @@
-deposit_type;over;under;term;currency;interest
-KONTO Z LWEM w PLN;NA;NA;NA;PLN;FILL_IN
-KONTO Z LWEM w USD;NA;NA;NA;USD;FILL_IN
-KONTO Z LWEM w EUR;NA;NA;NA;EUR;FILL_IN
-KONTO Z LWEM w GBP;NA;NA;NA;GBP;FILL_IN
-Otwarte Konto Oszczędnościowe w PLN;NA;20000000;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe w PLN;20000000;NA;NA;PLN;FILL_IN
-Otwarte Konto Oszczędnościowe w EUR;NA;NA;NA;EUR;FILL_IN
-Otwarte Konto Oszczędnościowe w USD;NA;NA;NA;USD;FILL_IN
-Otwarte Konto Oszczędnościowe w GBP;NA;NA;NA;GBP;FILL_IN
-Lokata Terminowa w PLN;1000;NA;1;PLN;FILL_IN
-Lokata Terminowa w PLN;1000;NA;3;PLN;FILL_IN
-Lokata Terminowa w PLN;1000;NA;6;PLN;FILL_IN
-Lokata Terminowa w PLN;1000;NA;12;PLN;FILL_IN
-Lokata Terminowa Plus w PLN;1000;50000;6;PLN;FILL_IN
-Lokata Terminowa Plus w PLN;1000;100000;12;PLN;FILL_IN
-Lokata Terminowa w EUR;500;NA;6;EUR;FILL_IN
-Lokata Terminowa w EUR;500;NA;12;EUR;FILL_IN
-Lokata Terminowa w USD;500;NA;6;USD;FILL_IN
-Lokata Terminowa w USD;500;NA;12;USD;FILL_IN
-Lokata Terminowa Plus w PLN;50000;100000;6;PLN;FILL_IN
-Lokata Terminowa Plus w PLN;100000;NA;12;PLN;FILL_IN
-Lokata Terminowa Plus w EUR;500;25000;6;EUR;FILL_IN
-Lokata Terminowa Plus w EUR;25000;NA;12;EUR;FILL_IN
-Lokata Terminowa Plus w USD;500;50000;6;USD;FILL_IN
-Lokata Terminowa Plus w USD;50000;NA;12;USD;FILL_IN
+product_name;product_type;client_type;over;under;term_months;term_days;currency;interest
+KONTO Z LWEM;savings;corporate;0;inf;NA;NA;PLN;FILL_IN
+KONTO Z LWEM;savings;corporate;0;inf;NA;NA;USD;FILL_IN
+KONTO Z LWEM;savings;corporate;0;inf;NA;NA;EUR;FILL_IN
+KONTO Z LWEM;savings;corporate;0;inf;NA;NA;GBP;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;corporate;0;20000000;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;corporate;20000000;inf;NA;NA;PLN;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;corporate;0;inf;NA;NA;EUR;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;corporate;0;inf;NA;NA;USD;FILL_IN
+Otwarte Konto Oszczędnościowe;savings;corporate;0;inf;NA;NA;GBP;FILL_IN
+Lokata Terminowa;deposit;corporate;1000;inf;1;NA;PLN;FILL_IN
+Lokata Terminowa;deposit;corporate;1000;inf;3;NA;PLN;FILL_IN
+Lokata Terminowa;deposit;corporate;1000;inf;6;NA;PLN;FILL_IN
+Lokata Terminowa;deposit;corporate;1000;inf;12;NA;PLN;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;1000;50000;6;NA;PLN;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;1000;100000;12;NA;PLN;FILL_IN
+Lokata Terminowa;deposit;corporate;500;inf;6;NA;EUR;FILL_IN
+Lokata Terminowa;deposit;corporate;500;inf;12;NA;EUR;FILL_IN
+Lokata Terminowa;deposit;corporate;500;inf;6;NA;USD;FILL_IN
+Lokata Terminowa;deposit;corporate;500;inf;12;NA;USD;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;50000;100000;6;NA;PLN;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;100000;inf;12;NA;PLN;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;500;25000;6;NA;EUR;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;25000;inf;12;NA;EUR;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;500;50000;6;NA;USD;FILL_IN
+Lokata Terminowa Plus;deposit;corporate;50000;inf;12;NA;USD;FILL_IN

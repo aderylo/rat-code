@@ -1,5 +1,8 @@
-deposit_type;over;under;term;currency;interest
-OKO Account - PLN;NA;NA;NA;PLN;1.5% (below 20 million), 0% (20 million and above)
-OKO Account - EUR;NA;NA;NA;EUR;0.01% (up to 100,000), 0% (above 100,000)
-OKO Account - USD;NA;NA;NA;USD;0.01% (up to 100,000), 0% (above 100,000)
-Corporate Deposits in PLN;NA;NA;NA;PLN;0% (automatic renewal)
+product_name;product_type;client_type;over;under;term_months;term_days;currency;interest
+Oprocentowanie standardowe rachunków OKO;savings;corporate;0;20000000;NA;NA;PLN;FILL_IN
+Oprocentowanie standardowe rachunków OKO;savings;corporate;20000000;inf;NA;NA;PLN;FILL_IN
+Oprocentowanie standardowe rachunków OKO;savings;corporate;0;100000;NA;NA;EUR;FILL_IN
+Oprocentowanie standardowe rachunków OKO;savings;corporate;100000;inf;NA;NA;EUR;FILL_IN
+Oprocentowanie standardowe rachunków OKO;savings;corporate;0;100000;NA;NA;USD;FILL_IN
+Oprocentowanie standardowe rachunków OKO;savings;corporate;100000;inf;NA;NA;USD;FILL_IN
+Depozyty korporacyjne;deposit;corporate;0;inf;NA;NA;PLN;FILL_IN
